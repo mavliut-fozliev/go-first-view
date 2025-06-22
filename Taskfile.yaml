@@ -1,0 +1,9 @@
+version: '3'
+
+tasks:
+  run:
+    cmds:
+      - go run main.go
+  build:
+    cmds:
+      - go build main.go
